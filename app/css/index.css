@@ -1,0 +1,209 @@
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+.html
+{
+	background-color: #7F7F7F;
+}
+
+#page
+{
+	z-index: 1;
+	width: 375px;
+	min-height: 536px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	padding: 30px 3px 4px 2px;
+}
+
+#pu130-4
+{
+	width: 0.01px;
+	margin-left: 11px;
+	position: relative;
+}
+
+#u130-4
+{
+	z-index: 2;
+	width: 148px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 9px;
+}
+
+#u146
+{
+	z-index: 45;
+	width: 35px;
+	position: relative;
+	margin-right: -10000px;
+	left: 309px;
+}
+
+#pu131-4
+{
+	width: 0.01px;
+	margin-left: 11px;
+	margin-top: 29px;
+	position: relative;
+}
+
+#u131-4
+{
+	z-index: 6;
+	width: 53px;
+	min-height: 25px;
+	font-size: 18px;
+	line-height: 22px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u132-4
+{
+	z-index: 10;
+	width: 72px;
+	position: relative;
+	margin-right: -10000px;
+	left: 58px;
+}
+
+#u133-4
+{
+	z-index: 14;
+	width: 53px;
+	position: relative;
+	margin-right: -10000px;
+	left: 135px;
+}
+
+#u134-4
+{
+	z-index: 18;
+	width: 329px;
+	min-height: 31px;
+	line-height: 29px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 19px;
+	margin-top: 16px;
+	position: relative;
+}
+
+#pu135-4
+{
+	width: 0.01px;
+	margin-left: 11px;
+	margin-top: 25px;
+	position: relative;
+}
+
+#u135-4
+{
+	z-index: 22;
+	width: 58px;
+	min-height: 25px;
+	font-size: 18px;
+	line-height: 22px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u136-4
+{
+	z-index: 26;
+	width: 72px;
+	position: relative;
+	margin-right: -10000px;
+	left: 58px;
+}
+
+#u137-4
+{
+	z-index: 30;
+	width: 53px;
+	position: relative;
+	margin-right: -10000px;
+	left: 135px;
+}
+
+#u138-4
+{
+	z-index: 34;
+	width: 329px;
+	min-height: 31px;
+	line-height: 29px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 19px;
+	margin-top: 25px;
+	position: relative;
+}
+
+#u134,#u138
+{
+	text-decoration: underline;
+}
+
+#u139-7
+{
+	z-index: 38;
+	width: 224px;
+	min-height: 97px;
+	margin-left: 69px;
+	margin-top: 38px;
+	position: relative;
+}
+
+#u174-7
+{
+	z-index: 47;
+	width: 274px;
+	min-height: 26px;
+	margin-left: 55px;
+	margin-top: 20px;
+	position: relative;
+}
+
+#u178-4
+{
+	z-index: 54;
+	width: 375px;
+	min-height: 53px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 34px;
+	position: relative;
+}
+
