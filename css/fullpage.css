@@ -588,3 +588,12 @@ body.day-background {
 }
 
 
+/* Özel CSS */
+
+.ilk h1{
+    font-size: 38px;
+}
+
+.ilk p{
+    font-size: 28px;
+}
