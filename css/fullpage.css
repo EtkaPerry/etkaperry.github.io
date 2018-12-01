@@ -471,10 +471,6 @@ p{
  }
 
 
-/* Created By Joseph Shenton @TeamiHackify 
-
-Please feel free to use this toggle if you like. But I request that you give credit to me thank you */
-
 body {
   background: #25272A;
   -webkit-transition: background-color 150ms ease-out !important;
@@ -588,12 +584,8 @@ body.day-background {
 }
 
 
-/* Özel CSS */
-
-.ilk h1{
-    font-size: 38px;
-}
-
-.ilk p{
-    font-size: 28px;
+    /* Özel CSS */
+.linkler img{
+    max-height: 24px;
+    max-width: 24px;
 }

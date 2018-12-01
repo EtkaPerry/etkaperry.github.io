@@ -12,21 +12,22 @@
 		</script>
 	<![endif]-->
 </head>
-<body>
-
-<a class="alt" id="alt">test</a>
-    
+<body>    
 <div id="fullpage">
 	<div class="section" id="section0">
-		<div class="ilk">
-            <h1>Hello!</h1>
-            <p>If you come here, you probably know who I am but if you don't or want more here is some links:</p>
-            <a href="http://etka.co.uk"><img style="height: 24px; width: 24px;" alt="Website" src="img/web.png"></a>
-            <a href="https://twitter.com/etkaperry"><img style="height: 24px; width: 24px;" alt="Twitter" src="img/twitter.png"></a>
-            <a href="https://github.com/etkaperry"><img style="height: 24px; width: 24px;" alt="Github" src="img/github.png"></a>
-            <a href="#"><img style="height: 24px; width: 24px;" alt="Playstore" src="img/playstore.png"></a>
-            
-        </div>
+        <p><span class="lang-merhaba">Merhaba!</span></p>
+            <div class="linkler">
+                <a href="http://etka.co.uk"><img alt="Website" src="img/svg/web.svg"></a>
+                <a href="mailto:etka@cocukveegitimi.com"><img alt="Mail" src="img/svg/mail.svg"></a>
+                <a href="https://twitter.com/EtkaPerry"><img alt="Twitter" src="img/svg/twitter.svg"></a>
+                <a href="http://etka.co.uk"><img src="img/svg/web.svg"></a>
+                
+                <!-- Link kopyala -->
+                    <input type="hidden" id="input-url" value="kopyalandi!">
+                    <img class="btn-copy" alt="Copy this website\'s link" src="img/svg/link.svg">
+            </div>
+
+
 	</div>
 	<div class="section" id="section1">
 		
@@ -36,11 +37,32 @@
 	</div>
 </div>
 
+    <!-- Alt Sağ -->
+    <div class="alt" id="alt">
+        <select id="dil_sec" onchange="loadsLanguage(this.value);">
+        </select>
+    </div>
+
+    <!-- Skriptler -->
 <script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/kopyala.js"></script>
+<script src="js/dil.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/kopyala.js"></script>
+
+    <!-- For front end -->
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#a5ba00', '#ac6300', '#ad2100'],
+        sectionsColor: ['#bea416', '#ac6300', '#ad2100'],
     });
+</script>
+ <script>
+
+    $(document).ready(function(){
+    $('#div1').text(language.date);
+    });
+
 </script>
 
 </body>
