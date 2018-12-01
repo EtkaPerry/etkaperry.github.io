@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Etka - Github</title>
+
+	<link rel="stylesheet" href="css/fullpage.css"/>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+<body>    
+<div id="fullpage">
+	<div class="section" id="section0">
+        <p><span class="lang-merhaba">Merhaba!</span></p>
+            <div class="linkler">
+                <a href="http://etka.co.uk"><img alt="Website" src="img/svg/web.svg"></a>
+                <a href="mailto:etka@cocukveegitimi.com"><img alt="Mail" src="img/svg/mail.svg"></a>
+                <a href="https://twitter.com/EtkaPerry"><img alt="Twitter" src="img/svg/twitter.svg"></a>
+                <a href="http://etka.co.uk"><img src="img/svg/web.svg"></a>
+                
+                <!-- Link kopyala -->
+                    <input type="hidden" id="input-url" value="kopyalandi!">
+                    <img class="btn-copy" alt="Copy this website\'s link" src="img/svg/link.svg">
+            </div>
+
+
+	</div>
+	<div class="section" id="section1">
+		
+	</div>
+	<div class="section" id="section2">
+		
+	</div>
+</div>
+
+    <!-- Alt Sağ -->
+    <div class="alt" id="alt">
+        <select id="dil_sec" onchange="loadsLanguage(this.value);">
+        </select>
+    </div>
+
+    <!-- Skriptler -->
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/kopyala.js"></script>
+<script src="js/dil.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/kopyala.js"></script>
+
+    <!-- For front end -->
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#bea416', '#ac6300', '#ad2100'],
+    });
+</script>
+ <script>
+
+    $(document).ready(function(){
+    $('#div1').text(language.date);
+    });
+
+</script>
+
+</body>
+</html>
