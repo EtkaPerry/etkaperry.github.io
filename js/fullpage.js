@@ -1,7 +1,7 @@
 // Deneme
 
-document.getElementById('alt').addEventListener('change', function(e){
-    var dropdown = document.getElementById('alt');
+document.getElementById('ust').addEventListener('change', function(e){
+    var dropdown = document.getElementById('ust');
     window.location.href = dropdown.options[dropdown.selectedIndex].getAttribute('id') + '.html';
 });
 
