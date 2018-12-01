@@ -89,9 +89,10 @@ html.fp-enabled,
     position: fixed;
     z-index: 100;
     margin-top: -32px;
-    top: 50%;
+    top: 90%;
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
+    color: aqua;
 }
 #fp-nav.fp-right {
     right: 17px;
@@ -151,7 +152,24 @@ html.fp-enabled,
     margin: -6px 0 0 -6px;
     border-radius: 100%;
  }
-#fp-nav ul li a span,
+#fp-nav ul li a span {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background: #b7a4a4;
+    border: #000000;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
 .fp-slidesNav ul li a span {
     border-radius: 50%;
     position: absolute;
@@ -159,7 +177,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: #333;
+    background: #240c0c;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;

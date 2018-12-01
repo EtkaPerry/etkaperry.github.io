@@ -6,12 +6,12 @@ var LanguageList = {
 //languages Objects
 var WORDS_TR = {
     "merhaba": "Merhaba!",
-    "text2": "text Two"
+    "ugras": "Şuan neler ile uğraşıyorum?"
 };
 
 var WORDS_EN = {
     "merhaba": "Hello!",
-    "text2": "texto Dos"
+    "ugras": "Now what i am working on?"
 };
 
 
@@ -29,7 +29,7 @@ function initialize() {
 }
 
 function loadsLanguage(lang) {
-    /*fills all the span tags with class=lang pattern*/
+    /* fills all the span tags with class=lang pattern */
     $('span[class^="lang"]').each(function () {
         var LangVar = (this.className).replace('lang-', '');
         var Text = window["WORDS_" + lang][LangVar];

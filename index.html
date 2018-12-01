@@ -6,6 +6,7 @@
 
 	<link rel="stylesheet" href="css/fullpage.css"/>
     <link rel="stylesheet" href="css/ozel.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
 
 	<!--[if IE]>
 		<script type="text/javascript">
@@ -13,18 +14,33 @@
 		</script>
 	<![endif]-->
 </head>
-<body>    
-<div id="fullpage">
-    
-        <!-- Üst Menü -->
+<body> 
+            <!-- Üst Menü -->
     <div class="ust" id="ust">
-        <a>Menü</a>
         <select id="dil_sec" onchange="loadsLanguage(this.value);">
             <option value="TR">Türkçe</option>
             <option value="EN">English</option>
         </select>
     </div>
+    <div class="button_container" style="z-index: 5;" id="sagust">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
     
+    <div class="overlay" style="z-index: 4;" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+<div id="fullpage">
+
         <!-- Bölümler -->
 	<div class="section" id="section0">
         <p><span class="lang-merhaba">Merhaba!</span></p>
@@ -38,6 +54,8 @@
                             <!-- Link kopyala -->
                         <input type="hidden" id="input-url" value="kopyalandi!">
                         <img class="btn-copy" alt="Copy this website\'s link" src="img/svg/link.svg">
+                        
+                        <a href="https://twitter.com/intent/tweet?text=Check this website! etkaperry.github.com"><img alt="Tweet" src="img/svg/tweet.svg"></a>
                     </span>
                 </div>
             </div>
@@ -47,26 +65,41 @@
 	</div>
 	<div class="section" id="section1">
 		
+        
+        <div class="slide" id="slide1" data-anchor="slide1">
+			<p><span class="lang-ugras"></span></p><br>
+		</div>
+        <div class="slide" id="slide2" data-anchor="slide2">
+			
+		</div>
 	</div>
 	<div class="section" id="section2">
 		
 	</div>
 </div>
-
         <!-- Skriptler -->
-    <script type="text/javascript" src="js/fullpage.js"></script>
-    <script type="text/javascript" src="js/kopyala.js"></script>
+    <script src="js/kopyala.js"></script>
     <script src="js/dil.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/clipboard.min.js"></script>
     <script src="js/kopyala.js"></script>
-    <script src="js/diger.js"></script>
+    <script src="js/diger.js"></script>   
 
-    <!-- For front end -->
-<script type="text/javascript">
-    var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#bea416', '#ac6300', '#ad2100'],
-    });
-</script>
+        <!-- Others -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/fullpage.js"></script>
+
+        <!-- For front end -->
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#bea416', '#ac6300', '#ad2100'],
+        });
+        
+        // Menü için
+        $('#sagust').click(function() {
+           $(this).toggleClass('active');
+           $('#overlay').toggleClass('open');
+        });
+    </script>
 </body>
 </html>
