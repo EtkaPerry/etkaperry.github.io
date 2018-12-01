@@ -16,7 +16,7 @@
 <div id="fullpage">
 	<div class="section" id="section0">
         <p><span class="lang-merhaba">Merhaba!</span></p>
-            <div class="linkler">
+            <div class="link">
                 <a href="http://etka.co.uk"><img alt="Website" src="img/svg/web.svg"></a>
                 <a href="mailto:etka@cocukveegitimi.com"><img alt="Mail" src="img/svg/mail.svg"></a>
                 <a href="https://twitter.com/EtkaPerry"><img alt="Twitter" src="img/svg/twitter.svg"></a>
@@ -40,6 +40,8 @@
     <!-- Alt Sağ -->
     <div class="alt" id="alt">
         <select id="dil_sec" onchange="loadsLanguage(this.value);">
+            <option value="TR">Türkçe</option>
+            <option value="EN">English</option>
         </select>
     </div>
 
@@ -57,13 +59,5 @@
         sectionsColor: ['#bea416', '#ac6300', '#ad2100'],
     });
 </script>
- <script>
-
-    $(document).ready(function(){
-    $('#div1').text(language.date);
-    });
-
-</script>
-
 </body>
 </html>
