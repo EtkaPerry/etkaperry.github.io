@@ -4,10 +4,14 @@
 }
 
  #ust{
-	position: fixed;
-	top: 2vh;
-    left: 10px;
-	z-index: 3;
+    position: fixed;
+    top: 10%;
+    right: 7.7%;
+    height: 27px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 3;
+    transition: opacity 0.25s ease;
 }
 
     /* Bütün kutucuk */
@@ -308,4 +312,11 @@ h1 {
 }
 @keyframes animate-positive {
     0%{ width: 0; }
+}
+
+.menuicon {
+    height: 44px;
+    width: 44px;
+    margin-top: -5px;
+    padding-right: 5px;
 }

@@ -8,6 +8,7 @@ var WORDS_TR = {
     "merhaba": "Merhaba!",
     "ugras": "Şuan neler ile uğraşıyorum?",
     "tweet": "Bu websiteye bir bak!",
+    "is": "İş alımı yapıyoruz",
     "android": "Android Uygulama:"
 };
 
@@ -15,6 +16,7 @@ var WORDS_EN = {
     "merhaba": "Hello!",
     "ugras": "What I am working on right now?",
     "android": "Chech this website!",
+    "is": "We're hiring",
     "android": "Android Uygulama:"
 };
 
