@@ -9,7 +9,7 @@ var WORDS_TR = {
     "ugras": "Şuan neler ile uğraşıyorum?",
     "tweet": "Bu websiteye bir bak!",
     "is": "İş alımı yapıyoruz",
-    "android": "Android Uygulama:"
+    "yuklenemedi": "Bu nesne yüklenemedi!"
 };
 
 var WORDS_EN = {
@@ -17,7 +17,7 @@ var WORDS_EN = {
     "ugras": "What I am working on right now?",
     "android": "Chech this website!",
     "is": "We're hiring",
-    "android": "Android Uygulama:"
+    "yuklenemedi": "This object couldn't load!"
 };
 
 
