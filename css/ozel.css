@@ -1,4 +1,4 @@
-.linkler img{
+﻿.linkler img{
     max-height: 24px;
     max-width: 24px;
 }
@@ -330,3 +330,7 @@ h1 {
     width: 36px;
     height: 36px;
 }
+ .uklen {
+     background:url(/img/svg/loading.svg) center center no-repeat;
+     background-color: rgba(255, 255, 255, 0.4);
+ }
