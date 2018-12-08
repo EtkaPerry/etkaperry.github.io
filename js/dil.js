@@ -9,7 +9,8 @@ var WORDS_TR = {
     "ugras": "Şuan neler ile uğraşıyorum?",
     "tweet": "Bu websiteye bir bak!",
     "is": "İş alımı yapıyoruz",
-    "yuklenemedi": "Bu nesne yüklenemedi!"
+    "yuklenemedi": "Bu nesne yüklenemedi!",
+    "devam": "Devam etmek için fareyi alandan çıkarın!"
 };
 
 var WORDS_EN = {
@@ -17,7 +18,8 @@ var WORDS_EN = {
     "ugras": "What I am working on right now?",
     "android": "Chech this website!",
     "is": "We're hiring",
-    "yuklenemedi": "This object couldn't load!"
+    "yuklenemedi": "This object couldn't load!",
+    "devam": "To continue remove your mouse from the frame!"
 };
 
 
