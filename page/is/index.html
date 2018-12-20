@@ -1,0 +1,78 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<title>We are Hiring</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="../../js/jquery-3.3.1.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen"/>
+ 	<link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$("#various1").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+		});
+	</script>
+    <style>
+    .arka {
+        background-color: #deab59;
+    }
+        
+    a:link {
+      color: #f4dbdb;
+    }
+        
+    a:visited {
+      color: #d1e870;
+    }
+    </style>
+</head>
+<body class="arka">
+<div>
+    <div class="navbar">
+      <a href="../../"><span class="lang-ana"></span></a>
+    </div>
+    
+    <div id="header"></div>
+    <center style="padding-top: 5%;">
+        
+        <img style="max-height: 56px;max-width: 56px;" src="../../img/svg/wari.svg">
+        <h1><span class="lang-konum"></span>:<span></span></h1>
+        <br>
+        <p><a id="various1" href="#inline1" title="Lorem ipsum dolor sit amet">Inline</a></p>
+    </center>
+    
+	<div style="display: none;">
+		<div id="inline1" style="width:400px;height:100px;overflow:auto;">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.
+		</div>
+	</div>
+</div>
+    <script>
+        $(function(){
+          $("#header").load("/page/ek/header.html");
+        });
+    </script>
+    <script src="../../js/dil.js"></script>
+    <script src="../../js/diger.js"></script>
+    <script>
+            // Execute on page load
+        $(function () {
+            $('#dil_sec').ddlist({
+              width: 180,
+              onSelected: function (index, value, text) {
+                // Show selected province in status panel
+                $('#secim').text(text + ' (value: ' + value + ')');
+              }
+            });
+        });
+    </script>
+</body>
+</html>

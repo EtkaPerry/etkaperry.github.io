@@ -10,7 +10,9 @@ var WORDS_TR = {
     "tweet": "Bu websiteye bir bak!",
     "is": "İş alımı yapıyoruz",
     "yuklenemedi": "Bu nesne yüklenemedi!",
-    "devam": "Devam etmek için fareyi alandan çıkarın!"
+    "devam": "Devam etmek için fareyi alandan çıkarın!",
+    "ana": "Anasayfa",
+    "konum": "Açık Konumlar"
 };
 
 var WORDS_EN = {
@@ -19,7 +21,9 @@ var WORDS_EN = {
     "android": "Chech this website!",
     "is": "We're hiring",
     "yuklenemedi": "This object couldn't load!",
-    "devam": "To continue remove your mouse from the frame!"
+    "devam": "To continue remove your mouse from the frame!",
+    "ana": "Home",
+    "konum": "Open Positions"
 };
 
 

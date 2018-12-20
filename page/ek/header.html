@@ -3,11 +3,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hiring</title>
+    
+    <style>
+    .dil{
+        position: fixed;
+        top: 10%;
+        right: 7.7%;
+        height: 27px;
+        width: 35px;
+        cursor: pointer;
+        z-index: 3;
+        transition: opacity 0.25s ease;
+    }
+        
+    /* dil için */
+    .dilsembol {
+      position: fixed;
+      top: 5%;
+      right: 5%;
+      height: 27px;
+      width: 35px;
+      cursor: pointer;
+      z-index: 3;
+      transition: opacity 0.25s ease;
+    }
+        
+    .menu{
+        z-index: 3;
+        
+    }
+    </style>
 </head>
 
 <body>
-    
-    <img onclick="ackapa()" class="dilsembol" src="img/svg/dil.svg">
+    <img onclick="ackapa()" class="dilsembol" src="../../img/svg/dil.svg">
     <div id="dilsecici" class="dil" style="display: none;">
             <!-- Üst Menü -->
         <select onchange="loadsLanguage(this.value);">
@@ -15,8 +44,6 @@
             <option value="EN">English</option>
         </select>
     </div>
-    
     <script src="js/diger.js"></script>
-    <script src="js/dil.js"></script>
 </body>
 </html>

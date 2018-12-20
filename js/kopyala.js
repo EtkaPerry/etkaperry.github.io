@@ -4,7 +4,7 @@ var clipboard = new Clipboard('.btn-copy', {
     }
 });
 clipboard.on('success', function(e) {
-  alert("Copied!");
+  alert("Kopyalandı!!");
   e.clearSelection();
 });
 $("#input-url").val(location.href);
