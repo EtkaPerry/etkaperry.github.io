@@ -31,15 +31,10 @@
 <body> 
 
 
-    <img onclick="ackapa()" class="dilsembol" src="img/svg/dil.svg">
+    <div id="header"></div>
     <div id="dilsecici" style="display: none;">
             <!-- Üst Menü -->
-        <div id="ust">
-            <select onchange="loadsLanguage(this.value);">
-                <option value="TR">Türkçe</option>
-                <option value="EN">English</option>
-            </select>
-        </div>
+    <div id="ust"></div>
     </div>
     
     <div class="button_container" style="z-index: 5;" id="sagust">
@@ -51,7 +46,7 @@
     <div class="overlay" style="z-index: 4;" id="overlay">
         <nav class="overlay-menu">
             <ul>
-                <li><a href="#"><img class="menuicon" src="img/svg/is.svg"><span class="lang-is"></span></a></li>
+                <li><a href="/page/is.html"><img class="menuicon" src="img/svg/is.svg"><span class="lang-is"></span></a></li>
             </ul>
         </nav>
     </div>
@@ -208,6 +203,10 @@
                 $('#secim').text(text + ' (value: ' + value + ')');
               }
             });
+        });
+        
+        $(function(){
+          $("#header").load("/page/ek/header.html");
         });
     </script>
 </body>
